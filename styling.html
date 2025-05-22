@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(61, 21, 24);
+    }
+    h1{
+        text-decoration: underline;
+        text-decoration-color: red;
+    }
+    p{
+        color: blue;
+        text-align: center;
+    }
+    .intro{
+        background-color: magenta;
+        padding: 20px;
+
+    }
+    .info{
+        color: green;
+        text-align: right;
+
+    }
+
+    #container{
+        border: 5px solid rgba(8, 78, 105, 0.4);
+        border-radius: 10px;
+        width: 90%;
+        padding: 20px;
+        margin: 50px auto;
+        background-color: chartreuse;
+    }
+    form{
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    input[type="text"]{
+        background-color: yellow;
+        outline: 1px solid blue;
+
+    }
+    input[type="submit"]{
+        border-radius: 20px;
+        padding: 8px 16px;
+
+    }
+    input{
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .cta{
+        background-color: gold;
+        color: black;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all  0.3s ease;
+
+    }
+    .cta:hover{
+        color: yellow;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .bg{
+        height: 40vh;
+       background-image: url(https://media.istockphoto.com/id/1674475423/photo/smart-industry-4-0-industrial-and-technology-innovation-modernization-and-automation-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=O2aZLQr4AUDPUjc_H3vnOL7nUyPoKfiEfKxwqddys-M=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px auto;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+    .bg p{
+        color: white;
+    }
+    .card{
+        border: 2px solid gray;
+        border-radius: 20px;
+        padding: 2rem;
+        height: 40vh;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    }
+    #title{
+        color: orange;
+        font-weight: bold;
+    }
+    .description{
+        font-size: 1rem;
+    }
+</style>
+<body>
+    <h1>Welcome  to  My  Website</h1>
+    <p>This  is  a  sample  paragraph  for  demonstration  purposes .</p>
+
+
+    <div  class="intro"> 
+        <h2>Hello!</h2>
+        <p class= "info">This is the introduction section.</p> 
+    </div>
+
+    <div id="container">
+        <p>This is the main content box.</p>
+    </div>
+
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="password"><br>
+        <input type="submit" value="Login" placeholder="Login">
+    </form>
+
+    <button class="cta">Click Me</button>
+
+    <div class="bg">
+        <h2>Main Title</h2>
+        <p>This is the test section with background styling.</p>
+    </div>
+
+    <div class="card">
+        <h3 id="title">Card Title</h3>
+        <p class="description">Card content goes here</p>
+    </div>
+</body>
+</html>
